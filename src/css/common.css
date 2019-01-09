@@ -1,0 +1,111 @@
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, 'Hiragino Sans GB', 'WenQuanYi Micro Hei', '\5fae\8f6f\96c5\9ed1', 'SimSun', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    min-width: 1200px;
+    color: #555555;
+    background: #fff;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+dd,
+dl,
+form {
+    margin: 0;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+/* flex栅格 */
+.flex-col {
+    overflow: hidden;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.flex-row {
+    overflow: hidden;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-1 {
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+
+.flex-2 {
+    -ms-flex: 2;
+    flex: 2;
+    min-width: 0;
+}
+
+.flex-3 {
+    -ms-flex: 3;
+    flex: 3;
+    min-width: 0;
+}
+
+.flex-4 {
+    -ms-flex: 4;
+    flex: 4;
+    min-width: 0;
+}
+
+.align-stretch {
+    -ms-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.align-center {
+    -ms-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.justify-center {
+    -ms-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
